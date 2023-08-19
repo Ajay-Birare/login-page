@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: rgb(223, 241, 241);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 70vh;
+  width: 40vw;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 5% 2%;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+  color: blue;
+}
+h2 {
+}
+button {
+  padding: 4%;
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
